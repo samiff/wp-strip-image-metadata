@@ -559,7 +559,7 @@ class WP_Strip_Image_Metadata {
 					$exif = false;
 
 					try {
-						$exif = exif_read_data( $path );
+						$exif = @exif_read_data( $path );
 					} catch ( \Exception $e ) {
 						self::logger( 'WP Strip Image Metadata: error reading EXIF data: ' . $e->getMessage() );
 					}

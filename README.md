@@ -44,7 +44,7 @@ The included bulk action will also remove metadata from all subsizes as well.
 
 In WP Admin, from your Media library you can select an image and click "Edit" (in List view) or "Edit more details" (in Grid view).
 
-On the Edit page for the image, there will be an admin notice at the top with the "expand for image EXIF data" text.
+On the Edit page for the image, there will be an admin notice at the top with the "expand for image EXIF data" text. This should work for jpg/jpeg files, but other image types may not display EXIF info.
 
 You might try uploading a test image with the "Image Metadata Stripping" setting disabled, and then the same image again with the setting enabled to view the difference.
 
