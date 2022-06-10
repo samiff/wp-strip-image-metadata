@@ -4,7 +4,7 @@
 
 ## Description
 
-WP Strip Image Metadata is a privacy focused plugin that helps in removing potentially sensitive metadata from your uploaded images.
+WP Strip Image Metadata is a privacy focused WordPress plugin that helps in removing potentially sensitive metadata from your uploaded images.
 
 ## What is image metadata?
 
