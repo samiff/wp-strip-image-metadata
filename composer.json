@@ -1,0 +1,29 @@
+{
+    "name": "samiff/wp-strip-image-metadata",
+    "description": "A WordPress plugin to strip image metadata on upload or via bulk action, and view image EXIF data.",
+    "homepage": "https://samiff.com",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "support": {
+        "issues": "https://github.com/samiff/wp-strip-image-metadata/issues"
+    },
+    "scripts": {
+        "build": [
+            "rm -rf wp-strip-image-metadata.zip && zip -r wp-strip-image-metadata.zip wp-strip-image-metadata.php readme.txt"
+        ],
+        "php:lint": [
+            "phpcs -s --standard=WordPress wp-strip-image-metadata.php"
+        ],
+        "php:fix": [
+            "phpcbf -p --standard=WordPress wp-strip-image-metadata.php"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2"
+    }
+}
