@@ -1,5 +1,5 @@
 # Changelog
 
-## 1.0 - 2023-01-01
+## 1.0 - 2022-06-12
 
 - Initial plugin release.

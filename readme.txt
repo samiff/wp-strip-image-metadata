@@ -85,7 +85,7 @@ To add other file types you can use the "wp_strip_image_metadata_image_file_type
 
 == Changelog ==
 
-### 1.0 - 2023-01-01
+### 1.0 - 2022-06-12
 
 - Initial plugin release.
 
