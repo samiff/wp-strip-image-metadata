@@ -2,6 +2,10 @@
 
 > Strip image metadata on upload or via bulk action, and view image EXIF data.
 
+Available from the WordPress.org plugin repository here:
+
+https://wordpress.org/plugins/wp-strip-image-metadata/
+
 ## Description
 
 WP Strip Image Metadata is a privacy focused WordPress plugin that helps in removing potentially sensitive metadata from your uploaded images.
