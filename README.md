@@ -1,3 +1,5 @@
+DEPRECATED as of 2023-09-08 -- No future maintenance planned.
+
 # WP Strip Image Metadata (WordPress plugin)
 
 > Strip image metadata on upload or via bulk action, and view image EXIF data.
